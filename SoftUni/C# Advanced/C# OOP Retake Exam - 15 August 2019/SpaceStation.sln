@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceStation", "01. Structure_Skeleton (5)\SpaceStation.csproj", "{9D4C074F-4391-4B4D-8755-1DD34723DB32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D4C074F-4391-4B4D-8755-1DD34723DB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4C074F-4391-4B4D-8755-1DD34723DB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4C074F-4391-4B4D-8755-1DD34723DB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4C074F-4391-4B4D-8755-1DD34723DB32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3609D5F1-D9B2-45A9-9256-DDAF4E2D33D4}
+	EndGlobalSection
+EndGlobal

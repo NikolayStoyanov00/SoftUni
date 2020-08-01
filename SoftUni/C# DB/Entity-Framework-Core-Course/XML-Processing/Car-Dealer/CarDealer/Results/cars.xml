@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Cars>
+  <car>
+    <make>Test</make>
+    <model>TesterMod</model>
+    <travelled-distance>2131232</travelled-distance>
+  </car>
+</Cars>

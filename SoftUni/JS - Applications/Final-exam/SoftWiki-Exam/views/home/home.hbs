@@ -1,0 +1,50 @@
+ {{> header}}
+ 
+ <!-- Home -->
+    {{#if isLoggedIn}}
+    {{#if articles}}
+    <div class="content">
+        {{#each articles}}
+        <section class="js">
+            <h2>{{ category }}</h2>
+            <div class="articles">
+                <article>
+                    <h3>{{ title }}</h3>
+                    <p>{{ content }}</p>
+                    <a href="#/article/details/{{ id }}" class="btn details-btn">Details</a>
+                </article>
+            </div>
+        </section>
+        {{/each}}
+    </div>
+    {{else}}
+    <!-- No articles message -->
+    <h3 class="no-articles">No articles yet</h3>
+    {{/if}}
+
+    {{else}}
+        <!-- Login -->
+    <div class="container auth">
+        <form action="#/user/login" method="POST">
+            <fieldset>
+                <legend>Login</legend>
+                <blockquote>Knowledge is like money: to be of value it must circulate, and in circulating it can increase in quantity and, hopefully, in value</blockquote>
+                <p class="field email">
+                    <input type="username" id="username" name="username" placeholder="maria@email.com">
+                    <label for="username">Email:</label>
+                </p>
+                <p class="field password">
+                    <input type="password" id="login-pass" name="password">
+                    <label for="login-pass">Password:</label>
+                </p>
+                <p class="field submit">
+                    <button class="btn submit" type="submit">Log In</button>
+                </p>
+                <p class="field">
+                    <span>If you don't have profile click <a href="#/user/register">here</a></span>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+    {{/if}}
+{{> footer}}

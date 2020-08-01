@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. The Garden", "01. The Garden\01. The Garden.csproj", "{DA17B4A2-A8DF-4FEA-8290-D5A352211D72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Make a Salad", "02. Make a Salad\02. Make a Salad.csproj", "{4DB79701-4520-4252-818B-E5563CBC11B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA17B4A2-A8DF-4FEA-8290-D5A352211D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA17B4A2-A8DF-4FEA-8290-D5A352211D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA17B4A2-A8DF-4FEA-8290-D5A352211D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA17B4A2-A8DF-4FEA-8290-D5A352211D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB79701-4520-4252-818B-E5563CBC11B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB79701-4520-4252-818B-E5563CBC11B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB79701-4520-4252-818B-E5563CBC11B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB79701-4520-4252-818B-E5563CBC11B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1431E514-58FE-4127-92C7-80906CF5B95E}
+	EndGlobalSection
+EndGlobal
