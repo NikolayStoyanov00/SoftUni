@@ -17,15 +17,28 @@ namespace RealEstates.ConsoleApplication
             db.Database.Migrate();
 
             IPropertiesService propertiesService = new PropertiesService(db);
-            propertiesService.Create("Младост", 120, 2020, 100000, "4-СТАЕН", "Панел", 5, 6);
 
-            IDistrictsService districtsService = new DistrictsService(db);
-            var districts = districtsService.GetTopDistrictsByAveragePrice();
+            Console.Write("Min price: ");
+            int minPrice = int.Parse(Console.ReadLine());
+            Console.WriteLine();
 
-            foreach (var district in districts)
+            Console.Write("Max price: ");
+            int maxPrice = int.Parse(Console.ReadLine());
+            var properties = propertiesService.SearchByPrice(minPrice, maxPrice);
+
+            foreach (var property in properties)
             {
-                Console.WriteLine($"{district.Name} => Price: {district.AveragePrice:f2} ({district.MinPrice:f2}-{district.MaxPrice:f2}) => {district.PropertiesCount} properties");
+                Console.WriteLine($"{property.District}, fl. {property.Floor}, {property.Size} m². {property.Year}, {property.Price}€, {property.PropertyType}, {property.BuildingType}");
             }
+
+
+            //IDistrictsService districtsService = new DistrictsService(db);
+            //var districts = districtsService.GetTopDistrictsByAveragePrice();
+
+            //foreach (var district in districts)
+            //{
+            //    Console.WriteLine($"{district.Name} => Price: {district.AveragePrice:f2} ({district.MinPrice:f2}-{district.MaxPrice:f2}) => {district.PropertiesCount} properties");
+            //}
         }
     }
 }
