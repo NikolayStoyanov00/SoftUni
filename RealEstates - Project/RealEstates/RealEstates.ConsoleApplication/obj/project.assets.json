@@ -6868,6 +6868,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "RealEstates.Data >= 1.0.0",
       "RealEstates.Services >= 1.0.0"
     ]
   },
@@ -6897,6 +6898,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "D:\\Програмиране\\RealEstates - Project\\RealEstates\\RealEstates.Data\\RealEstates.Data.csproj": {
+              "projectPath": "D:\\Програмиране\\RealEstates - Project\\RealEstates\\RealEstates.Data\\RealEstates.Data.csproj"
+            },
             "D:\\Програмиране\\RealEstates - Project\\RealEstates\\RealEstates.Services\\RealEstates.Services.csproj": {
               "projectPath": "D:\\Програмиране\\RealEstates - Project\\RealEstates\\RealEstates.Services\\RealEstates.Services.csproj"
             }
